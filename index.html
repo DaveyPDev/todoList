@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+    <title>Todo List</title>
+</head>
+<body>
+    <h1>Todo or not Todo!</h1>
+    <form action="" id='add-task'>
+    <input type="text" id="task-name" placeholder="Enter task!">
+    <button>Add task</button>
+    </form> 
+    <div id='todo-list'>
+        <ul id="task-list">
+            <li class="todo" id="todo">New <input class="boxCheck" type="checkbox" id="task-complete"><button id="removeButton">X</button></li>
+            <li class="todo" id="todo">Add <input class="boxCheck" type="checkbox" id="task-complete"><button id="removeButton">X</button></li> 
+            <li class="todo" id="todo">Tasks <input class="boxCheck" type="checkbox" id="task-complete"><button id="removeButton">X</button></li> 
+        </ul>
+    </div>
+    <script src="local.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+
+html {
+    background: linear-gradient(45deg, rgba(25, 25, 26, 0.486), rgb(70, 39, 138));
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: montserrat; 
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(7, 139, 139);
+    
+}
+
+#task-Name {
+    justify-content: center;
+}
+
+#todo-list {
+    /* color: rgb(0, 0, 0); */
+    font-size:large;
+    list-style-type: none;
+}
+
+
+ #add-task {
+    display: flex;
+    justify-content: center;
+    box-shadow: 10,10,10,10;
+}
+
+#add-task button {
+    border-radius: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li button {
+    background-color: orange;
+    border-radius: 5px;
+}
+
+ .checkedTask {
+    text-decoration: line-through;
+}
+
+input[type='checkbox'] {
+    text-decoration: line-through;
+}
+
+/* spent too much time trying to figure it out and can't remember
+
+ how to move the whole UL or IL's in comparison to the H1
+ and task-name when resizing window */
+ 
